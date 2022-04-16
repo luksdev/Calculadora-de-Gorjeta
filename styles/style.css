@@ -1,0 +1,314 @@
+/* Reset CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Icon dentro do input */
+
+.input-container input {
+  width: 100%;
+}
+
+#box_icone_busca {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  position: relative;
+  top: -40px;
+}
+#icone_busca {
+  color: #000;
+  cursor: pointer;
+}
+
+/* Main */
+
+main {
+  background-color: #c5e4e7;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Box principal */
+.container {
+  height: 100vh;
+  width: 60%;
+  min-width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-tip {
+  margin-top: 3rem;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side {
+  margin-right: 10px;
+  width: 50%;
+}
+
+/* Bill */
+.bill {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bill label {
+  color: #636d6c;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.bill input {
+  text-align: end;
+  padding: 10px;
+  background-color: #f3f8fb;
+  border: none;
+  margin: 10px 0px 10px 0px;
+  color: #0c3e3c;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Select Tip */
+
+.select-tip {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.select-tip span {
+  color: #636d6c;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.container-buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-buttons button {
+  width: 110px;
+  background-color: #00474b;
+  padding: 0.5rem 0px 0.5rem 0px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.top-buttons {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-buttons {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-buttons button:hover {
+  color: #005d59;
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #26c2ad;
+}
+
+.top-buttons button:focus {
+  color: #005d59;
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #26c2ad;
+}
+
+.bottom-buttons button:hover {
+  color: #005d59;
+
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #26c2ad;
+}
+
+.bottom-buttons button:focus {
+  color: #005d59;
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #26c2ad;
+}
+
+#custom-buttom {
+  text-align: center;
+  width: 110px;
+  background-color: #00474b;
+  padding: 0.5rem 0px 0.5rem 0px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: #f3f8fb;
+  color: #798b8d;
+  transform: 1s;
+}
+
+#custom-buttom:hover {
+  background-color: #dbdfe0;
+  color: #5f6566;
+}
+
+#custom-buttom:focus {
+  background-color: #dbdfe0;
+  color: #000000;
+}
+
+/* Number of People */
+
+.number-of-people {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.number-of-people label {
+  color: #636d6c;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.number-of-people input {
+  padding: 10px;
+  background-color: #f3f8fb;
+  border: none;
+  margin: 10px 0px 10px 0px;
+  color: #0c3e3c;
+  font-weight: bold;
+  font-size: large;
+  text-align: end;
+}
+
+/* Right Side */
+
+.right-side {
+  width: 50%;
+  background-color: #00474b;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-left: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-right-side {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Tip amount */
+
+.tip-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-tip-amount {
+  font-size: xx-small;
+}
+
+.content-tip-amount h2 {
+  color: #bde1e1;
+}
+
+.content-tip-amount span {
+  color: #64969d;
+}
+
+/* Total */
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-total {
+  font-size: xx-small;
+}
+
+.content-total h2 {
+  color: #bde1e1;
+}
+
+.content-total span {
+  color: #64969d;
+}
+
+.container-button button {
+  width: 100%;
+  background-color: #26c0ab;
+  padding: 0.7rem 0px 0.7rem 0px;
+  color: #004f4e;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.container-button button:hover {
+  background-color: #1b8678;
+  color: #8bfffd;
+}
+
+.results {
+  color: #2fc3ad;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .container {
+    padding-top: 260px;
+    width: 100%;
+  }
+  .box-tip {
+    flex-direction: column;
+  }
+  .left-side {
+    width: 100%;
+  }
+  .right-side {
+    width: 100%;
+    height: 15rem;
+  }
+}
